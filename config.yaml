@@ -1,0 +1,10 @@
+# The folder containing the dataset filss
+data_files_path: Data/QADI
+
+# the names of each of the three files for train, dev, and test sets.
+train_file_name: train_set.tsv
+dev_file_name: dev_set.tsv
+test_file_name: test_set.tsv
+
+# name of model to get from hugging face using AutoModel
+model_name: UBC-NLP/MARBERT
